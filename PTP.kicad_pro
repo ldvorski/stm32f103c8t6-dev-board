@@ -63,20 +63,7 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [
-        [
-          "unconnected_items|220600000|111850000|F.Cu|4|7e18292c-0d4f-47a7-8638-d5c071b96022|7e18292c-0d4f-47a7-8638-d5c071b96022",
-          "Mechanical connection"
-        ],
-        [
-          "unconnected_items|220600000|120750000|F.Cu|4|7e18292c-0d4f-47a7-8638-d5c071b96022|7e18292c-0d4f-47a7-8638-d5c071b96022",
-          "Mechanical connection"
-        ],
-        [
-          "unconnected_items|226100000|111850000|F.Cu|4|7e18292c-0d4f-47a7-8638-d5c071b96022|7e18292c-0d4f-47a7-8638-d5c071b96022",
-          "Mechanical connection"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -206,6 +193,7 @@
       ],
       "track_widths": [
         0.0,
+        0.2,
         0.3,
         0.5
       ],
@@ -529,8 +517,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "manufacturing/",
-      "pos_files": "manufacturing/",
+      "plot": "manufacturing/v1.1/",
+      "pos_files": "manufacturing/v1.1/PTP-PnP/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -540,7 +528,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "manufacturing\\PTP.csv",
+    "bom_export_filename": "manufacturing\\PTP-BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -631,6 +619,18 @@
           "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Footprint datasheet",
+          "name": "Footprint datasheet",
           "show": false
         }
       ],
